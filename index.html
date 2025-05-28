@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mihajlo Markovic</title>
+</head>
+
+<body class="bg-light">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <svg viewBox="110 106 280 193" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M291.037 178.31l0 21.254l0 49.236c0 10.333 -7.543 18.875 -17.423 20.51c2.791 -6.235 4.376 -13.12 4.376 -20.392c0 -0.985 -0.039 -1.963 -0.097 -2.933l0.097 0l0 -10.12l0 -30.431l0 -40.058c0 -9.15 5.92 -16.905 14.143 -19.69c-0.71 3.356 -1.096 6.826 -1.096 10.39l0 22.233zm-71.668 0l0 21.254l0 49.236c0 10.516 -7.813 19.181 -17.954 20.59c2.812 -6.252 4.414 -13.17 4.414 -20.472c0 -0.985 -0.038 -1.963 -0.094 -2.933l0.094 0l0 -10.12l0 -30.431l0 -40.058c0 -9.345 6.178 -17.225 14.678 -19.85c-0.733 3.402 -1.138 6.928 -1.138 10.55l0 22.233zm121.825 -72.31c-14.058 0 -26.746 5.79 -35.852 15.091c-9.104 -9.294 -21.768 -15.091 -35.819 -15.091c-14.184 0 -26.966 5.903 -36.089 15.354c-9.118 -9.448 -21.89 -15.354 -36.07 -15.354c-27.698 0 -50.158 22.42 -50.158 50.077l0 22.232l0 21.255l0 49.236c0 11.498 -9.328 20.814 -20.844 20.814l-16.362 0c7.893 17.327 25.367 29.386 45.672 29.386c14.177 0 26.954 -5.896 36.077 -15.34c9.116 9.449 21.903 15.34 36.082 15.34c14.046 0 26.727 -5.78 35.833 -15.07c9.101 9.294 21.787 15.07 35.835 15.07c27.7 0 50.16 -22.423 50.16 -50.082c0 -0.985 -0.04 -1.963 -0.097 -2.933l0.097 0l0 -10.12l0 -30.431l0 -40.058c0 -11.325 9.065 -20.523 20.344 -20.788l0 -0.024l19.997 0c-5.21 -22.105 -25.075 -38.564 -48.806 -38.564z"
+                            id="shape.primary" style="fill: rgb(255, 255, 255);" />
+                    </svg>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item pe-lg-3">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item pe-lg-3">
+                            <a class="nav-link" href="#about">About me</a>
+                        </li>
+                        <li class="nav-item pe-lg-3">
+                            <a class="nav-link" href="#services">What I Do</a>
+                        </li>
+                        <li class="nav-item pe-lg-3">
+                            <a class="nav-link" aria-current="page" href="#portfolio">Latest Work</a>
+                        </li>
+                        <li class="nav-item pe-lg-3">
+                            <a class="nav-link" aria-current="page" href="#freelancer">Hire Me</a>
+                        </li>
+                        <!--li class="nav-item pe-lg-3">
+                            <a class="nav-link" aria-current="page" href="#testimonials">Testimonials</a>
+                        </!--li-->
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <video autoplay muted loop id="myVideo">
+                <source src="img/3138850422.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+            <div class="container-lg text-center">
+                <div class="row align-items-center align-content-center">
+                    <div class="col mt-5 mt-md-0 order-md-first">
+                        <div class="home-text">
+                            <p class="text-white fs-2 mb-1">Hello, I'm</p>
+                            <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Designer</h1>
+                            <h2 class="fs-3 text-white">Mihajlo Markovic</h2>
+                            <p class="text-white fs-6 mt-5 w-50 mx-auto">I'm a front-end developer based in
+                                Belgrade, Serbia.</p>
+                            <a href="#portfolio" class="btn btn-danger px-3 mt-5">My Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about bg-white py-5" id="about">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">About Me</h2>
+                        </div>
+                    </div>
+                </div> 
+                <div class="row hidden" id="about-me">
+                    <div class="col-md-6">
+                        <div class="about-text">
+                            <h3 class="fs-4 mb-3">Front End-Development</h3>
+                            <p class="text-muted">Hello, i am Mihajlo Markovic, front-end developer. I enjoy building interesting websites and creating some of my own.</p>
+                        </div>
+                        <div class="row text-center text-uppercase my-3">
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold count" data-value="20"><span>0</span>+</h4>
+                                    <p class="text-muted">Projects Completed</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold count" data-value="10"><span>0</span>+</h4>
+                                    <p class="text-muted">Happy Clients</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="fact-item">
+                                    <h4 class="fs-1 fw-bold count" data-value="3"><span>0</span>+</h4>
+                                    <p class="text-muted">Years of Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 d-flex align-items-center">
+                                <a href="/img/CV.pdf" target="_blank" class="btn text-center">Download CV</a>
+                                <div class="social-links d-flex">
+                                    <a href="https://www.facebook.com/mihajlo.markovic.10" target="_blank"
+                                        class="text-dark me-2 icon"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="https://twitter.com/Miki13002" target="_blank"
+                                        class="text-dark me-2 icon"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/mihajlo_markovicc/" target="_blank"
+                                        class="text-dark me-2 icon"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/mihajlo-markovic-b94860264/" target="_blank"
+                                        class="text-dark me-2 icon"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mt-5 mt-md-0">
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">HTML</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">CSS</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item mb-4">
+                            <h3 class="fs-6">Bootstrap</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <h3 class="fs-6">Java Script</h3>
+                            <div class="progress" style="height: 5px;">
+                                <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services py-5 hidden" id="services">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">What I Do</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center justify-content-md-around">
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Web Development</h3>
+                            <p class="text-muted">Make website that you desire.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fa-solid fa-globe"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">SEO Optimisation</h3>
+                            <p class="text-muted">Improve the appearance and positioning of web pages in organic search results.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="service-item shadow-sm p-4 rounded bg-white">
+                            <div class="icon my-3 text-danger fs-2">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h3 class="fs-5 py-2">Creative Design</h3>
+                            <p class="text-muted">Beautiful Design that you wish for.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="freelancer" class="freelancer bg-danger py-5">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center hidden">
+                        <p class="text-light fs-5">Do you have any project?</p>
+                        <h2 class="fs-1 text-white mb-4">Im Available For Freelancer Projects</h2>
+                        <a href="mailto:markovic.mihajlo.bg@gmail.com" target="_blank"
+                            class="btn btn-black btn-outline-light">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio bg-white text-center py-5" id="portfolio">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center hidden">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Latest Works</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-md-around hidden">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mb-4">
+                            <img src="/img/website-img-1.webp" class="w-100 img-thumbnail" alt="portfolio-item">
+                            <h3 class="text-capitalize fs-5 mt-3 my-2">Server Hosting Website</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mb-4">
+                            <img src="/img/website-img-2.webp" class="w-100 img-thumbnail" alt="portfolio-item">
+                            <h3 class="text-capitalize fs-5  mt-3 my-2">Realtor Website</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="portfolio-item">
+                            <img src="/img/website-img-3.webp" class="w-100 img-thumbnail" alt="portfolio-item">
+                            <h3 class="text-capitalize fs-5  mt-3 my-2">Localnode Website</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section class="testimonials bg-light py-5" id="testimonials">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Testimonials</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" class="bg-danger active" data-bs-target="#carouselExample1"
+                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                    aria-label="Slide 1"></button>
+                                <button type="button" class="bg-danger" data-bs-target="#carouselExample2"
+                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" class="bg-danger" data-bs-target="#carouselExample3"
+                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="testi-item carousel-item active bg-white shadow-sm rounded p-4">
+                                    <div class="testi-author-info d-flex align-items-center">
+                                        <img class="img-thumbnail rounded-circle" src="#" alt="">
+                                        <div class="author ms-3">
+                                            <h3 class="fs-6 mb-1">
+                                                Name of author1
+                                            </h3>
+                                            <p class="text-muted m-0">
+                                                his job1
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <p class="text-muted mt-3">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua.
+                                    </p>
+                                    <div class="rating text-danger">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-xl-7">
+                                    <div class="testi-item carousel-item bg-white shadow-sm rounded p-4">
+                                        <div class="testi-author-info d-flex align-items-center">
+                                            <img class="img-thumbnail rounded-circle" src="#" alt="">
+                                            <div class="author ms-3">
+                                                <h3 class="fs-6 mb-1">
+                                                    Name of author2
+                                                </h3>
+                                                <p class="text-muted m-0">
+                                                    his job2
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="text-muted mt-3">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </p>
+                                        <div class="rating text-danger">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                    <div class="col-lg-8 col-xl-7">
+                                        <div class="testi-item carousel-item bg-white shadow-sm rounded p-4">
+                                            <div class="testi-author-info d-flex align-items-center">
+                                                <img class="img-thumbnail rounded-circle" src="#" alt="">
+                                                <div class="author ms-3">
+                                                    <h3 class="fs-6 mb-1">
+                                                        Name of author3
+                                                    </h3>
+                                                    <p class="text-muted m-0">
+                                                        his job3
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="text-muted mt-3">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor
+                                                incididunt ut labore et dolore magna aliqua.
+                                            </p>
+                                            <div class="rating text-danger">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <section -->
+        <section class="contact py-5 hidden" id="contact">
+            <div class="container-lg py-4">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <h2 class="fw-bold mb-5">Contact Me</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="d-lg-flex">
+                        <div class="contact-item col-lg-4 mb-4 mb-lg-0">
+                            <div class="icon justify-content-center d-flex fs-4 text-danger">
+                                <i class="fas fa-envelope me-3"></i>
+                                <h3 class="fs-5 text-dark">Email</h3>
+                            </div>
+                            <div class="text ms-3">
+                                <a href="mailto:markovic.mihajlo.bg@gmail.com" target="_blank"
+                                    class="text-start">markovic.mihajlo.bg@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item col-lg-4 mb-4 mb-lg-0">
+                            <div class="icon justify-content-center d-flex fs-4 text-danger">
+                                <i class="fas fa-phone me-3"></i>
+                                <h3 class="fs-5 text-dark">Phone</h3>
+                            </div>
+                            <div class="text ms-3">
+                                <a href="tel:+381640094141" class="">Call me</a>
+                            </div>
+                        </div>
+                        <div class="contact-item col-lg-4 mb-4 mb-lg-0">
+                            <div class="icon justify-content-center d-flex fs-4 text-danger">
+                                <i class="fas fa-envelope me-3"></i>
+                                <h3 class="fs-5 text-dark">Where I am from</h3>
+                            </div>
+                            <div class="text ms-3">
+                                <a href="#" class="">Belgrade, Serbia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--div class="col-md-7">
+                        <div class="contact-form">
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6 mb-4">
+                                        <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                    </div>
+                                    <div class="col-lg-6 mb-4">
+                                        <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-4">
+                                        <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12 mb-4">
+                                        <textarea rows="5" placeholder="Your Message" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" class="btn btn-danger px-3"> Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </!--div-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-lg border-top py-4">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy;<span id="year"></span> Mihajlo Markovic</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

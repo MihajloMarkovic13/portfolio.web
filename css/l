@@ -1,0 +1,4 @@
+.about .container-lg .row .social-links .fa-brands:hover {
+    color: #dc3545;
+    transition: all 0.4s ease-in-out;
+}
